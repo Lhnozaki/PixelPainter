@@ -1,4 +1,7 @@
 function easterEgg() {
+  box.forEach(function(e) {
+    e.style.background = "pink";
+  });
   let black = "rgb(0, 0, 0)";
   let green = "rgb(0, 249, 0)";
   let darkBlue = "rgb(118, 214, 255)";
