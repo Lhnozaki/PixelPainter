@@ -30,13 +30,11 @@ let mousedown = false;
 box.forEach(function(e) {
   e.addEventListener("mousedown", function() {
     this.style.background = chooseColor.value;
-    // this.style.border = chooseColor.value;
     mousedown = true;
   });
   e.addEventListener("mouseover", function() {
     if (mousedown === true) {
       this.style.background = chooseColor.value;
-      // this.style.border = chooseColor.value;
     }
   });
   e.addEventListener("mouseup", function() {
